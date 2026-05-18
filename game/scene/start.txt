@@ -1,0 +1,64 @@
+label:start;
+changeBg:xiaomenzheng.png;
+changeFigure:主角.png -right -id=wo -transform={"position":{"x":-159,"y":646},"scale":{"x":1.2,"y":1.2}};
+miniAvatar:主角头像.png;
+我:终于到了！熬过中考，我真的考上全县最好的高中了！;
+miniAvatar:none;
+:看了看手中的录取通知书，上面写着我的名字。;
+getUserInput:1 -title=你的名字是 -buttonText=确认 -ruleButtonText=OK;
+miniAvatar:主角头像.png
+{1}:总之，还是先进去报道吧。 -notend;
+miniAvatar:none;
+changeFigure: -id=wo;
+changeBg:renfengzhengmian.png;
+:毫不费力地找到了我的班级报到处。;
+getUserInput:classnumber -title=我在 -buttonText=班（填数字）;
+miniAvatar:主角头像.png;
+{1}:老师您好，这里是高一{classnumber}班吧？|我是{1}，来报道。;
+miniAvatar:none;
+:报到处的那个人抬起了头。;
+:一个慈祥的面孔看着你，他是你的班主任。;
+班主任:高一教室在这边，别跑高二那边去了。;
+:一层5个班，很容易就找到了教室。;
+changeBg:jiaoshikong.png;
+changeFigure:主角.png -transform={"position":{"x":626,"y":531},"scale":{"x":1.1,"y":1.1}};
+miniAvatar:主角头像.png;
+{1}:出去走走，熟悉一下环境。;
+miniAvatar:none;
+: ;
+changeBg:caochang.png;
+:踏入操场，八月烈阳裹挟着燥热，稍站片刻便已遍体微汗。;
+:蝉声次第漫开，清风掠过校园。;
+:缓步走上看台，舒展双臂，任由清风将自己轻轻环抱。;
+:  ;
+changeBg:houhuayuan.png;
+:来到学校后面;
+:映入眼帘的是精致的园林造景;
+miniAvatar:主角头像.png
+{1}:NB，是个好地方;
+miniAvatar:none;
+:坐在廊亭的椅子上休息了一会;
+miniAvatar:主角头像.png
+{1}:食堂在哪？民以食为天，总要吃饭的嘛;
+miniAvatar:none;
+: ;
+changeBg:shitang.png;
+changeFigure:none;
+changeFigure:主角.png -transform={"position":{"x":-356,"y":378}}
+:找到了食堂;
+miniAvatar:主角头像.png
+{1}:这儿离教学楼有点远，看来得提高跑步速度了;
+miniAvatar:none;
+:从食堂出来，又在校园里转悠了几圈，骑上电瓶车回家了;
+changeFigure:none;
+changeBg:woshiday.png;
+miniAvatar:主角头像.png;
+{1}:我一定要努力学习;
+miniAvatar:none;
+:到了晚上，高中就要上晚自习了;
+changeBg:jiaoshiwanzixi.png;
+:开学第一天，啥也没有，学什么呢······|但是还是装作学习的模样翻着早就买好的学习辅导资料;
+:晚自习下课的时候，还认识了坐在身边的几个同学;
+:大家看起来都客客气气的，素质极高;
+:  ;
+choose:高中生活就这样开始了:第一章.txt|什么击败生活，不念了:进厂.txt;

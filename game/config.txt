@@ -1,0 +1,9 @@
+Game_name:鼠鼠的奇妙高中冒险;
+Game_key:21e5d5aed2feeda;
+Title_img:renfengzhengmian.png;
+Title_bgm:s_Title.mp3;
+Textbox_theme:imss;
+Show_panic:false;
+Enable_Appreciation:true;
+Default_Language:zh_CN;
+Game_Logo:xiaomenzheng.png;
